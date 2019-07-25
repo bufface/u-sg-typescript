@@ -1,6 +1,7 @@
 node_modules
 .vscode
 .cache
+.idea
 dist
 /package*.json
 build
