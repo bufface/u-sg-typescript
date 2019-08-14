@@ -12,7 +12,7 @@ export interface UserProps {
 }
 
 export class User extends Model<UserProps> {
-  static buildUser(attrs: UserProps) {
+  static buildUser(attrs: UserProps): User {
     return new User(
       new Attributes<UserProps>(attrs),
       new Eventing(),
