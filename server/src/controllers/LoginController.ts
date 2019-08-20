@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+import { Request, Response } from 'express';
 import { get, controller, bodyValidator, post } from './decorators';
 
 @controller('/auth')
