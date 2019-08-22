@@ -6,6 +6,6 @@ export const todosReducer = (state: Todo[] = [], action: FetchTodosAction) => {
     case ActionTypes.fetchTodos:
       return action.payload;
     default:
-      state;
+      return state;
   }
 };
